@@ -71,11 +71,4 @@ python -m unittest -v
 
 If all tests pass, you will see `Ran 7 tests` and `OK`.
 
-## Notes
 
-- Name and department cannot be empty.
-- Status must be Active or Inactive.
-- Missing employees return a 404 error. Invalid input returns a 400 error.
-- Three sample employees are included when the app starts.
-- Data is stored in memory. Added employees and changes are lost when the app restarts.
-- This is a local assessment project, not a production server.
